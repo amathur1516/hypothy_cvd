@@ -12,6 +12,98 @@ plot(cars)
 
 library(tidyverse)
 library(ggplot2)
+
+#Data Import 2007-2008
+
+```{r}
+#data import BP 07-08
+library(foreign)
+BP07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/BPX_E.xpt")
+```
+
+```{r}
+#data import A1C 07-08
+library(foreign)
+A1C07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/GHB_E.xpt")
+```
+
+```{r}
+#Data import HDL07
+library(foreign)
+HDL07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/HDL_E.xpt")
+```
+
+```{r}
+#Data import TCHOL07
+library(foreign)
+TCHOL07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/TCHOL_E.xpt")
+```
+
+```{r}
+#Data import THYROID 07
+library(foreign)
+THY07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/THYROD_E.xpt")
+```
+
+```{r}
+#Data import Triglyceride 07
+library(foreign)
+TRIGLY07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/TRIGLY_E.xpt")
+```
+
+```{r}
+#Data import Demographics 07-08
+library(foreign)
+Demo07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/DEMO_E.xpt")
+```
+
+```{r}
+#Data import Body Measures 07-08
+library(foreign)
+BMX07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/BMX_E.xpt")
+```
+
+```{r}
+#Data import BP and Cholesterol Questionnaire 07-08
+library(foreign)
+BPCHO07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/BPQ_E.xpt")
+```
+
+```{r}
+#Data import Diabetes Questionnaire 07-08
+library(foreign)
+DIAB07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/DIQ_E.xpt")
+```
+
+```{r}
+#Data import Health Insurance 07-08
+library(foreign)
+HIQ07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/HIQ_E.xpt")
+```
+
+```{r}
+#Data import Health Utilization 07-08
+library(foreign)
+HUQ07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/HUQ_E.xpt")
+```
+
+```{r}
+#Data import Medical Condition Questionnaire 07-08
+library(foreign)
+MCQ07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/MCQ_E.xpt")
+```
+
+```{r}
+#Data import Prescription Medication Drug Info 07-08
+library(foreign)
+RXQRX07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/RXQ_DRUG.xpt")
+```
+
+```{r}
+#Data import Prescription Medication 07-08
+library(foreign)
+RQX07<- read.xport("/Users/RajatMathur/Desktop/UChicago\ \'24-\'25/Research\ and\ SRP/NHANES\ Data\ Sets/2007-08/RXQ_RX_E.xpt")
+```
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
